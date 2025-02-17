@@ -1,4 +1,3 @@
-// src/components/Footer.tsx
 import { Facebook, Twitter, Instagram } from "lucide-react";
 
 export default function Footer() {

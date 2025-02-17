@@ -1,9 +1,9 @@
-// src/components/Pricing.tsx
 import { Button } from "@/components/ui/button";
+import { Section } from "./common/section";
 
 export default function Pricing() {
   return (
-    <section className="min-h-[60dvh] flex flex-col justify-center">
+    <Section>
       <div className="py-20">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Pricing</h2>
@@ -11,6 +11,6 @@ export default function Pricing() {
           <Button size="lg">Get Early Access</Button>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

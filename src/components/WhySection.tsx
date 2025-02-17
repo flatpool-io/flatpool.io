@@ -1,4 +1,4 @@
-// src/components/WhySection.tsx
+import { Section } from "./common/section";
 
 export default function WhySection() {
   const withoutPoints = [
@@ -16,7 +16,7 @@ export default function WhySection() {
   ];
 
   return (
-    <section className="py-20 min-h-[60dvh] flex flex-col justify-center">
+    <Section>
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Why FlatPool?</h2>
         <div className="max-w-3xl mx-auto grid grid-cols-2 divide-x-2">
@@ -42,6 +42,6 @@ export default function WhySection() {
           </ul>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
