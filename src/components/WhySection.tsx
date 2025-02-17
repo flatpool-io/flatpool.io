@@ -18,7 +18,9 @@ export default function WhySection() {
   return (
     <Section>
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12">Why FlatPool?</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">
+          🚀 Why FlatPool?
+        </h2>
         <div className="max-w-3xl mx-auto grid grid-cols-2 divide-x-2">
           <ul className="flex flex-col divide-y-2 max-w-fit ml-auto">
             <li className="text-lg text-center font-semibold p-2">
