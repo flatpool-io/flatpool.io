@@ -17,7 +17,7 @@ export default function WhySection() {
 
   return (
     <Section>
-      <div className="py-10 sm:px-14 w-full sm:w-auto sm:rounded-2xl mx-auto bg-muted border-2 border-black">
+      <div className="py-10 sm:px-14 w-full sm:w-auto sm:rounded-2xl mx-auto bg-muted border-x-0 sm:border-x-2 border-y-2 border-black">
         <h2 className="text-3xl font-bold text-center mb-12">
           🚀 Why FlatPool?
         </h2>
