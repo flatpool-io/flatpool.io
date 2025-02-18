@@ -17,32 +17,34 @@ export default function WhySection() {
 
   return (
     <Section>
-      <div className="container mx-auto">
+      <div className="py-10 sm:px-14 w-full sm:w-auto sm:rounded-2xl mx-auto bg-muted border-2 border-black">
         <h2 className="text-3xl font-bold text-center mb-12">
           🚀 Why FlatPool?
         </h2>
-        <div className="max-w-3xl mx-auto grid grid-cols-2 divide-x-2">
-          <ul className="flex flex-col divide-y-2 max-w-fit ml-auto">
-            <li className="text-lg text-center font-semibold p-2">
-              Without FlatPool
-            </li>
-            {withoutPoints.map((feature, index) => (
-              <li key={index} className="text-lg text-right p-2">
+        <ul className="max-w-3xl mx-auto grid grid-cols-2 w-fit">
+          <li className="text-lg text-center font-semibold p-2">
+            Without FlatPool
+          </li>
+          <li className="text-lg text-center font-semibold p-2 border-l-2 border-black">
+            With FlatPool
+          </li>
+          {withoutPoints.map((feature, index) => (
+            <>
+              <li
+                key={index}
+                className="text-lg text-right p-2 border-t-2 border-black"
+              >
                 {feature}
               </li>
-            ))}
-          </ul>
-          <ul className="flex flex-col divide-y-2 max-w-fit">
-            <li className="text-lg text-center font-semibold p-2">
-              With FlatPool
-            </li>
-            {withPoints.map((feature, index) => (
-              <li key={index} className="text-lg text-left p-2">
-                {feature}
+              <li
+                key={index}
+                className="text-lg text-left p-2 border-t-2 border-l-2 border-black"
+              >
+                {withPoints[index]}
               </li>
-            ))}
-          </ul>
-        </div>
+            </>
+          ))}
+        </ul>
       </div>
     </Section>
   );

@@ -28,7 +28,7 @@ export default function HowItWorks() {
         <h2 className="text-3xl font-bold text-center mb-12">
           ⚙️ How It Works?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 max-w-screen-lg mx-auto divide-y-2 md:divide-y-0 divide-x-0 md:divide-x-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 max-w-screen-lg mx-auto divide-y-2 md:divide-y-0 divide-x-0 md:divide-x-2 divide-black">
           {steps.map((step, index) => (
             <div key={index} className="p-4">
               {step.icon && (

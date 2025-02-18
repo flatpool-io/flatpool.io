@@ -4,7 +4,7 @@ import { Section } from "./common/section";
 export default function FinalCTA() {
   return (
     <Section>
-      <div className="py-20 bg-green-800 text-white">
+      <div className="py-20 bg-green-600 text-white border-y-black border-y-2">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to find your new home?
