@@ -17,9 +17,9 @@ export default function WhySection() {
 
   return (
     <Section>
-      <div className="py-10 sm:px-14 w-full sm:w-auto sm:rounded-2xl mx-auto bg-muted border-x-0 sm:border-x-2 border-y-2 border-black">
+      <div className="shadow-xl py-10 sm:px-14 w-full sm:w-auto sm:rounded-2xl mx-auto bg-muted border-x-0 sm:border-x-2 border-y-2 border-black">
         <h2 className="text-3xl font-bold text-center mb-12">
-          🚀 Why FlatPool?
+          🚀 <span className="underline">Why</span> FlatPool?
         </h2>
         <ul className="max-w-3xl mx-auto grid grid-cols-2 w-fit">
           <li className="text-lg text-center font-semibold p-2">
@@ -32,13 +32,13 @@ export default function WhySection() {
             <>
               <li
                 key={index}
-                className="text-lg text-right p-2 border-t-2 border-black"
+                className="text-sm sm:text-lg text-right p-2 border-t-2 border-black"
               >
                 {feature}
               </li>
               <li
                 key={index}
-                className="text-lg text-left p-2 border-t-2 border-l-2 border-black"
+                className="text-sm sm:text-lg text-left p-2 border-t-2 border-l-2 border-black"
               >
                 {withPoints[index]}
               </li>

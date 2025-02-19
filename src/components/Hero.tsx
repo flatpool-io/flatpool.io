@@ -21,7 +21,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="bg-green-600 text-white pt-20 min-h-[min(90dvh,55rem)] flex flex-col gap-2 border-b-black border-b-2">
+    <section className="bg-green-600 overflow-hidden text-white pt-20 min-h-[min(90dvh,55rem)] flex flex-col gap-2 border-b-black border-b-2">
       <div className="container mx-auto text-center flex-1 flex flex-col justify-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-down">
           Flat Search Made <span className="underline">Simple</span>
@@ -34,7 +34,7 @@ export default function Hero() {
           Get Early Access
         </Button>
       </div>
-      <div className="text-black text-xs h-80 aspect-[4/5] mx-auto border-black border-8 border-b-0 bg-white rounded-t-[2.5rem] relative overflow-hidden">
+      <div className="shadow-xl shadow-black text-black text-xs h-80 aspect-[4/5] mx-auto border-black border-8 border-b-0 bg-white rounded-t-[2.5rem] relative overflow-hidden">
         <div className="bg-black w-1/3 h-5 rounded-full mx-auto m-1.5 z-20 relative" />
         {offers.map((offer, i) => (
           <div
