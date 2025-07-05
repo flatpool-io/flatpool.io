@@ -16,8 +16,8 @@ export default function WhySection() {
   ];
 
   return (
-    <Section>
-      <div className="shadow-xl py-10 sm:px-14 w-full sm:w-auto sm:rounded-2xl mx-auto bg-muted border-x-0 sm:border-x-2 border-y-2 border-black">
+    <Section className="bg-muted">
+      <div className="shadow-xl py-10 sm:px-14 w-full sm:w-auto sm:rounded-2xl mx-auto bg-white border-x-0 sm:border-x-2 border-y-2 border-black">
         <h2 className="text-3xl font-bold text-center mb-12">
           🚀 <span className="underline">Why</span> FlatPool?
         </h2>

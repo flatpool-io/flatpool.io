@@ -97,7 +97,7 @@ export function EmailForm({
         disabled={isLoading}
         className="flex-1 bg-white text-black border-black border-2"
       />
-      <Button type="submit" disabled={isLoading}>
+      <Button variant="ghost" className="bg-white text-black" type="submit" disabled={isLoading}>
         {isLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : buttonText}
       </Button>
     </form>

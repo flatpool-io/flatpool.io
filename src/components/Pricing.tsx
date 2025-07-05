@@ -10,7 +10,9 @@ export default function Pricing() {
             Currently <span className="font-black underline italic">FREE</span>{" "}
             for early access!
           </p>
-          <Button size="lg">Get Early Access</Button>
+          <a href="#cta">
+            <Button size="lg">Get Early Access</Button>
+          </a>
         </div>
     </Section>
   );

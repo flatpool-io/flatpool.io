@@ -11,11 +11,6 @@ export default function Header() {
         <div className="flex items-center divide-x-2 divide-black">
           <a className="px-2">
             <Button size="sm" variant="ghost">
-              About us
-            </Button>
-          </a>
-          <a className="px-2">
-            <Button size="sm" variant="ghost">
               Sign In
             </Button>
           </a>
