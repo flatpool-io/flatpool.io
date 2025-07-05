@@ -22,8 +22,8 @@ export default function Hero() {
 
   return (
     <section className="bg-green-600 overflow-hidden text-white min-h-[min(80dvh,35rem)] border-b-black border-b-2 flex px-4 pt-8 md:pt-4">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-2 mx-auto max-w-screen-lg flex-1">
-        <div className="mx-auto text-center md:text-left flex-1 flex flex-col justify-center col-span-2">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-2 mx-auto max-w-screen-lg flex-1">
+        <div className="mx-auto text-center md:text-left flex-1 flex flex-col justify-center col-span-1 md:col-span-2">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-down">
             Flat Search Made <span className="underline">Simple</span>
           </h1>
@@ -43,7 +43,7 @@ export default function Hero() {
         </div>
 
         {/* Phone css */}
-        <div className="col-span-1 flex items-end justify-center">
+        <div className="flex items-end justify-center col-span-1">
           <div className="shadow-xl shadow-black text-black text-xs h-80 aspect-[4/5] mx-auto border-black border-8 border-b-0 bg-white rounded-t-[2.5rem] relative overflow-hidden">
             <div className="bg-black w-1/3 h-5 rounded-full mx-auto m-1.5 z-20 relative" />
             {offers.map((offer, i) => (
