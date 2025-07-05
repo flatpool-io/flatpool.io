@@ -1,14 +1,99 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<!-- Basic Meta Tags -->
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>FlatPool - Flat search made easy</title>
-		<meta name="description" content="Find your perfect flat with FlatPool. Instead of scrolling through unfiltered posts on facebook get notifications on new offers that meet your requirements!" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+		<!-- Primary Meta Tags -->
+		<title>FlatPool - Flat Search Made Simple</title>
+		<meta name="title" content="FlatPool - Flat Search Made Simple" />
+		<meta name="description" content="Find your perfect flat with FlatPool. Instead of scrolling through unfiltered posts on Facebook, get smart notifications on new offers that meet your exact requirements!" />
+		<meta name="keywords" content="flat search, apartment finder, room rental, flatpool, housing search, roommate finder, property notifications, facebook marketplace alternative, flat hunting, rental alerts" />
 		<meta name="author" content="FlatPool" />
-		<meta name="keywords" content="flat, pool, search, easy, notifications, facebook, offers, filter, roommate" />
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="English" />
+		<meta name="revisit-after" content="7 days" />
+		
+		<!-- Favicon and App Icons -->
+		<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="FlatPool" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<meta name="theme-color" content="#00a63e" />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://flatpool.io/" />
+		<meta property="og:title" content="FlatPool - Flat Search Made Simple" />
+		<meta property="og:description" content="Find your perfect flat with FlatPool. Instead of scrolling through unfiltered posts on Facebook, get smart notifications on new offers that meet your exact requirements!" />
+		<meta property="og:image" content="https://flatpool.io/og-image.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:site_name" content="FlatPool" />
+		<meta property="og:locale" content="en_US" />
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://flatpool.io/" />
+		<meta property="twitter:title" content="FlatPool - Flat Search Made Simple" />
+		<meta property="twitter:description" content="Find your perfect flat with FlatPool. Instead of scrolling through unfiltered posts on Facebook, get smart notifications on new offers that meet your exact requirements!" />
+		<meta property="twitter:image" content="https://flatpool.io/og-image.png" />
+		<meta property="twitter:creator" content="@flatpool" />
+		<meta property="twitter:site" content="@flatpool" />
+		
+		<!-- Additional SEO Meta Tags -->
+		<meta name="generator" content={Astro.generator} />
+		<meta name="application-name" content="FlatPool" />
+		<meta name="msapplication-TileColor" content="#00a63e" />
+		<meta name="msapplication-config" content="/browserconfig.xml" />
+		
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://flatpool.io/" />
+		
+		<!-- Preconnect to external domains for performance -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
+		<!-- Structured Data (JSON-LD) -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "FlatPool",
+			"url": "https://flatpool.io/",
+			"description": "Find your perfect flat with FlatPool. Instead of scrolling through unfiltered posts on Facebook, get smart notifications on new offers that meet your exact requirements!",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://flatpool.io/search?q={search_term_string}",
+				"query-input": "required name=search_term_string"
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "FlatPool",
+				"url": "https://flatpool.io/"
+			}
+		}
+		</script>
+		
+		<!-- Additional Organization Schema -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "FlatPool",
+			"url": "https://flatpool.io/",
+			"logo": "https://flatpool.io/logo.png",
+			"description": "FlatPool helps you find your perfect flat by providing smart notifications for new rental offers that match your requirements.",
+			"sameAs": [
+				"https://twitter.com/flatpool",
+				"https://facebook.com/flatpool"
+			]
+		}
+		</script>
 	</head>
 	<body>
 		<slot />

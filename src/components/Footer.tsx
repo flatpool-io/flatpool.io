@@ -1,11 +1,12 @@
 import { Facebook, Twitter, Instagram } from "lucide-react";
+import LogoSvg from "@/components/common/logo";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    <footer className="bg-gray-800 text-white pt-8 pb-2 px-2">
+      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="mb-4 md:mb-0">
-          <img src="/logo.svg" alt="FlatPool Logo" className="h-8" />
+          <LogoSvg className="h-8 w-auto fill-white stroke-white" />
         </div>
         <nav className="mb-4 md:mb-0">
           <ul className="flex space-x-4">

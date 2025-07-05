@@ -1,0 +1,30 @@
+{
+  "name": "FlatPool - Flat Search Made Simple",
+  "short_name": "FlatPool",
+  "description": "Find your perfect flat with FlatPool. Instead of scrolling through unfiltered posts on Facebook, get smart notifications on new offers that meet your exact requirements!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#00a63e",
+  "theme_color": "#00a63e",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["lifestyle", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+} 

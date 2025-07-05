@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/web-app-manifest-192x192.png"/>
+            <square310x310logo src="/web-app-manifest-512x512.png"/>
+            <square70x70logo src="/favicon-96x96.png"/>
+            <TileColor>#00a63e</TileColor>
+            <TileImage src="/web-app-manifest-192x192.png"/>
+        </tile>
+    </msapplication>
+    <msapplication-config>
+        <search>
+            <ms:search>
+                <ms:query>flat search</ms:query>
+                <ms:query>apartment finder</ms:query>
+                <ms:query>room rental</ms:query>
+                <ms:query>flatpool</ms:query>
+                <ms:query>housing search</ms:query>
+                <ms:query>roommate finder</ms:query>
+                <ms:query>property notifications</ms:query>
+                <ms:query>facebook marketplace alternative</ms:query>
+                <ms:query>flat hunting</ms:query>
+                <ms:query>rental alerts</ms:query>
+            </ms:search>
+        </search>
+    </msapplication-config>
+</browserconfig> 
