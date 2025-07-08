@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { DotPattern } from "@/components/ui/dot-pattern";
 
 export default function Hero() {
   const offers = [
@@ -21,8 +22,10 @@ export default function Hero() {
   ];
 
   return (
-    <section className="bg-green-600 overflow-hidden text-white min-h-[min(80dvh,35rem)] border-b-black border-b-2 flex px-4 pt-8 md:pt-4">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-2 mx-auto max-w-screen-lg flex-1">
+    <section className="bg-green-600 overflow-hidden text-white min-h-[min(80dvh,35rem)] border-b-black border-b-2 flex px-4 pt-8 md:pt-4 relative">
+      <DotPattern />
+      
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-2 mx-auto max-w-screen-lg flex-1 relative z-10">
         <div className="mx-auto text-center md:text-left flex-1 flex flex-col justify-center col-span-1 md:col-span-2">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-down">
             Flat Search Made <span className="underline">Simple</span>
@@ -49,7 +52,7 @@ export default function Hero() {
             {offers.map((offer, i) => (
               <div
                 key={i}
-                className="bg-muted rounded-lg m-2 p-2 flex gap-2 animate-new-notification absolute top-6 left-0 right-0 z-10"
+                className="bg-muted rounded-lg m-2 p-2 flex gap-2 animate-new-notification absolute top-6 left-0 right-0 z-10 border-black border-2"
                 style={{ animationDelay: `${i * 3}s` }}
               >
                 <div className="bg-green-600 rounded-full h-full aspect-square" />
